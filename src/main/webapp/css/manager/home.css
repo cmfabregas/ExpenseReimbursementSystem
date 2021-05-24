@@ -1,0 +1,66 @@
+#mainNav .navbar-brand{
+    color:#fed136;
+    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    font-size: 90%;
+    font-weight: 400;
+    padding: .75em 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: border-box;
+  } */
+  
+ .fixed-top {
+    /*position: fixed;*/
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+  }
+  #mainNav {
+    background-color: #212529;
+  }
+  
+  
+  @media (min-width: 992px) {
+    #mainNav {
+     /* padding-top: 25px;
+      padding-bottom: 25px;*/
+      transition: padding-top .3s,padding-bottom .3s;
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+  #reimb_table {
+      /* height: 45px; */
+      padding-top: 50px;
+      position: relative;
+
+  }
+
+  body{
+      padding-top: 20px;
+  }
+  
+  
